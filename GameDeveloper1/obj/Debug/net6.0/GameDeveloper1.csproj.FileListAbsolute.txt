@@ -1,0 +1,15 @@
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.csproj.AssemblyReference.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.AssemblyInfoInputs.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.AssemblyInfo.cs
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.csproj.CoreCompileInputs.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\bin\Debug\net6.0\GameDeveloper1.exe
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\bin\Debug\net6.0\GameDeveloper1.deps.json
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\bin\Debug\net6.0\GameDeveloper1.runtimeconfig.json
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\bin\Debug\net6.0\GameDeveloper1.dll
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\bin\Debug\net6.0\GameDeveloper1.pdb
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.dll
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\refint\GameDeveloper1.dll
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.pdb
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\GameDeveloper1.genruntimeconfig.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\GameDeveloper1\obj\Debug\net6.0\ref\GameDeveloper1.dll
