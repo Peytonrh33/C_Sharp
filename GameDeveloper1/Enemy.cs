@@ -1,4 +1,4 @@
-class Enemy
+public class Enemy
 {
     public string Name;
     public int Health;
@@ -10,12 +10,19 @@ class Enemy
         Health = health;
     }
 
-    public void AddAttack(Attack attack)
+    public void PerformAttack(Enemy Target, Attack ChosenAttack)
+    {
+        Target.Health = Target.Health - ChosenAttack.DamageAmount;
+    // Write some logic here to reduce the Targets health by your Attack's DamageAmount
+    Console.WriteLine($"{Name} attacks {Target.Name}, dealing {ChosenAttack.DamageAmount} damage and reducing {Target.Name}'s health to {Target.Health}!!");
+    }
+
+    public virtual void AddAttack(Attack attack)
     {
         AttackList.Add(attack);
     }
 
-    public void RandomAttack()
+    public virtual void RandomAttack()
     {
         if(AttackList.Count > 0){
             Random RandAttack = new Random();
