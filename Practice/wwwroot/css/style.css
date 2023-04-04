@@ -1,0 +1,28 @@
+form {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    border-color: black;
+    border-width: 10px;
+    color: white;
+    text-align: right;
+}
+body{
+    background-color: blue;
+}
+
+.divs{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "8DtfqlsL4WNzdVLJXlksAr9Iy4cUHvQ7TFhXJJquG5I=",
+  "Source": "Practice",
+  "BasePath": "_content/Practice",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Practice\\wwwroot",
+      "Source": "Practice",
+      "ContentRoot": "C:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\Practice\\wwwroot\\css\\style.css",
+      "SourceId": "Practice",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\Practice\\wwwroot\\",
+      "BasePath": "_content/Practice",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}

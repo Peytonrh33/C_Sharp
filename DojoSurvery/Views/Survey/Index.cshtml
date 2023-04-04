@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="~/css/style.css">
+</head>
+<body>
+    <form action="process" method="post">
+        <div class="divs">
+            <Label for="TextField">Your Name:</Label>    
+            <input type="text" name="Name" id="TextField"/>
+        </div>
+        <div class="divs">
+            <Label>Dojo Location:</Label>
+            <select name="Location" id="Location">
+                <option>San Jose</option>
+                <option>Dallas</option>
+                <option>Fort Worth</option>
+            </select>
+        </div>
+        <div class="divs">
+            <Label>Favorite Language:</Label>
+            <select name="Language">
+                <option>C#</option>
+                <option>Python</option>
+                <option>MERN</option>
+            </select>
+        </div>
+        <div class="divs">
+            <Label for="Comment">Comment (Optional):</Label>
+            <input type="text" name="Comment" id="Comment">
+        </div>
+        <button type="submit" class="button">Submit</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "0DWKeUKD7PogSNweMtwbdXE6yqSu2AWZBE5i+Ma3Qlc=",
+  "Source": "DojoSurvery",
+  "BasePath": "_content/DojoSurvery",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DojoSurvery\\wwwroot",
+      "Source": "DojoSurvery",
+      "ContentRoot": "C:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\DojoSurvery\\wwwroot\\",
+      "BasePath": "_content/DojoSurvery",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\DojoSurvery\\wwwroot\\css\\style.css",
+      "SourceId": "DojoSurvery",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\DojoSurvery\\wwwroot\\",
+      "BasePath": "_content/DojoSurvery",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
