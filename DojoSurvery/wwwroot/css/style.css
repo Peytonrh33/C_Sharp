@@ -1,9 +1,9 @@
 form {
     width: 600px;
-    height: 500px;
+    height: auto;
     margin: 0 auto;
     border-color: black;
-    border-width: 10px;
+    border-width: 5px;
     color: white;
     text-align: right;
 }
@@ -12,6 +12,7 @@ body{
 }
 
 .divs{
+    color: black;
     padding: 10px;
     display: flex;
     justify-content: space-between;

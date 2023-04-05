@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 namespace Practice.Controllers;
+using DojoSurvery.Models;
 
 
 public class SurveyController : Controller
@@ -11,16 +12,12 @@ public class SurveyController : Controller
     }
 
     [HttpPost("process")]
-    public IActionResult Process(string Name, string Location, string Language, string Comment)
+    public IActionResult Process(Survey survey)
     {
-        Console.WriteLine($"{Name}");
-        Console.WriteLine($"{Location}");
-        Console.WriteLine($"{Language}");
-        Console.WriteLine($"{Comment}");
-        HttpContext.Session.SetString("Name", $"{Name}");
-        HttpContext.Session.SetString("Location", $"{Location}");
-        HttpContext.Session.SetString("Language", $"{Language}");
-        HttpContext.Session.SetString("Comment", $"{Comment}");
+        HttpContext.Session.SetString("Name", $"{survey.Name}");
+        HttpContext.Session.SetString("Location", $"{survey.Location}");
+        HttpContext.Session.SetString("Language", $"{survey.Language}");
+        HttpContext.Session.SetString("Comment", $"{survey.Comment}");
         return RedirectToAction("Display");
 
     }

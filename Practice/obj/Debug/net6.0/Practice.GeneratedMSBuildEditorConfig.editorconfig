@@ -8,13 +8,13 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Practice
 build_property.RootNamespace = Practice
-build_property.ProjectDir = C:\Users\peyto\OneDrive\Documents\C_Sharp\Practice\
+build_property.ProjectDir = c:\Users\peyto\OneDrive\Documents\C_Sharp\Practice\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\peyto\OneDrive\Documents\C_Sharp\Practice
+build_property.MSBuildProjectDirectory = c:\Users\peyto\OneDrive\Documents\C_Sharp\Practice
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/peyto/OneDrive/Documents/C_Sharp/Practice/Views/Hello/Index.cshtml]
+[c:/Users/peyto/OneDrive/Documents/C_Sharp/Practice/Views/Hello/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
