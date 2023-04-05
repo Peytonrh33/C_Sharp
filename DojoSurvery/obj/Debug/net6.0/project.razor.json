@@ -18382,6 +18382,11 @@
       "FilePath": "c:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\DojoSurvery\\Views\\Survey\\Display.cshtml",
       "TargetPath": "Views\\Survey\\Display.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\peyto\\OneDrive\\Documents\\C_Sharp\\DojoSurvery\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.3"

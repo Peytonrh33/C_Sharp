@@ -9,30 +9,35 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+    @model Survey
     <form action="process" method="post">
         <div class="divs">
-            <Label for="TextField">Your Name:</Label>    
-            <input type="text" name="Name" id="TextField"/>
+            <Label asp-for="Name"></Label>    
+            <input asp-for="Name"/>
+            <span asp-validation-for="Name"></span>
         </div>
         <div class="divs">
-            <Label>Dojo Location:</Label>
-            <select name="Location" id="Location">
+            <Label asp-for="Location"></Label>
+            <select asp-for="Location">
                 <option>San Jose</option>
                 <option>Dallas</option>
                 <option>Fort Worth</option>
             </select>
+            <span asp-validation-for="Location"></span>
         </div>
         <div class="divs">
-            <Label>Favorite Language:</Label>
-            <select name="Language">
+            <Label asp-for="Language"></Label>
+            <select asp-for="Language">
                 <option>C#</option>
                 <option>Python</option>
                 <option>MERN</option>
             </select>
+            <span asp-validation-for="Language"></span>
         </div>
         <div class="divs">
-            <Label for="Comment">Comment (Optional):</Label>
-            <input type="text" name="Comment" id="Comment">
+            <Label asp-for="Comment"></Label>
+            <input asp-for="Comment">
+            <span asp-validation-for="Comment"></span>
         </div>
         <button type="submit" class="button">Submit</button>
     </form>
