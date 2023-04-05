@@ -16,11 +16,7 @@ public class SurveyController : Controller
     {
         if(ModelState.IsValid)
         {
-            HttpContext.Session.SetString("Name", $"{survey.Name}");
-            HttpContext.Session.SetString("Location", $"{survey.Location}");
-            HttpContext.Session.SetString("Language", $"{survey.Language}");
-            HttpContext.Session.SetString("Comment", $"{survey.Comment}");
-            return RedirectToAction("Display");
+            return RedirectToAction("Display", survey);
         }
         else
         {
@@ -29,8 +25,8 @@ public class SurveyController : Controller
 
     }
     [HttpGet("results")]
-    public ViewResult Display()
+    public ViewResult Display(Survey survey)
     {
-        return View("Display");
+        return View("Display", survey);
     }
 }
