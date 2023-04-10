@@ -5,7 +5,7 @@
 <div>
     <div>
         <p>Welcome @Context.Session.GetString("User")</p>
-        <form action="clear" method="post">
+        <form asp-action="clear" method="post">
             <button type="submit">Logout</button>
         </form>
     </div>
@@ -13,21 +13,21 @@
         <h1>@Context.Session.GetInt32("Num")</h1>
         <div>
             <div>
-                <form action="function" method="post">
+                <form asp-action="function" method="post">
                     <button type="submit">+1</button>
                     <input type="hidden" name="buttonType" value="Plus">
                 </form>
-                <form action="function" method="post">
+                <form asp-action="function" method="post">
                     <button type="submit">-1</button>
                     <input type="hidden" name="buttonType" value="Minus">
                 </form>
             </div>
             <div>
-                <form action="function" method="post">
+                <form asp-action="function" method="post">
                     <button type="submit">*2</button>
                     <input type="hidden" name="buttonType" value="Times">
                 </form>
-                <form action="function" method="post">
+                <form asp-action="function" method="post">
                     <button type="submit">+ Random</button>
                     <input type="hidden" name="buttonType" value="Random">
                 </form>

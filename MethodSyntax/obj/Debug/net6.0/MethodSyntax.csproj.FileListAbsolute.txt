@@ -1,0 +1,15 @@
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\bin\Debug\net6.0\MethodSyntax.exe
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\bin\Debug\net6.0\MethodSyntax.deps.json
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\bin\Debug\net6.0\MethodSyntax.runtimeconfig.json
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\bin\Debug\net6.0\MethodSyntax.dll
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\bin\Debug\net6.0\MethodSyntax.pdb
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.csproj.AssemblyReference.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.AssemblyInfoInputs.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.AssemblyInfo.cs
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.csproj.CoreCompileInputs.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.dll
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\refint\MethodSyntax.dll
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.pdb
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\MethodSyntax.genruntimeconfig.cache
+C:\Users\peyto\OneDrive\Documents\C_Sharp\MethodSyntax\obj\Debug\net6.0\ref\MethodSyntax.dll
