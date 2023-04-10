@@ -1,0 +1,47 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model Dish
+<div>
+    <div>
+        <h1>Add a new Dish!</h1>
+    </div>
+    <div>
+        <a href="/">Home</a> | <a href="/dishes/new">Add a Dish</a>
+    </div>
+    <form asp-action="CreateDish" method="post">
+        <div>
+            <label for="chef">Chef's Name</label>
+            <input type="text" id="chef" asp-for="Chef">
+            <span asp-validation-for="Chef"></span>
+
+            <label for="name">Name of Dish</label>
+            <input type="text" id="name" asp-for="Name">
+            <span asp-validation-for="Name"></span>
+
+            <label for="calories"># of Calories</label>
+            <input type="number" id="calories" asp-for="Calories">
+            <span asp-validation-for="Calories"></span>
+        </div>
+        <div>
+            <label for="tastiness">Tastiness Lvl.</label>
+            <select id="tastiness" asp-for="Tastiness">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+            <span asp-validation-for="Tastiness"></span>
+        </div>
+        <div>
+            <label for="description">Description</label>
+            <input type="text" id="description" asp-for="Description">
+            <span asp-validation-for="Description"></span>
+
+            <button type="submit">Add Dish</button>
+        </div>
+        
+    </form>
+</div>

@@ -53,20 +53,20 @@ public class HomeController : Controller
             int button = origin + 1;
             HttpContext.Session.SetInt32("Num", button);
         }
-        if(buttonType == "Minus")
+        else if(buttonType == "Minus")
         {
             int button = origin - 1;
             HttpContext.Session.SetInt32("Num", button);
         }
-        if(buttonType == "Times")
+        else if(buttonType == "Times")
         {
             int button = origin * 2;
             HttpContext.Session.SetInt32("Num", button);
         }
-        if(buttonType == "Random")
+        else if(buttonType == "Random")
         {
             Random rand = new Random();
-            int button = origin +- rand.Next(0,10);
+            int button = origin += rand.Next(0,10);
             HttpContext.Session.SetInt32("Num", button);
         }
         return RedirectToAction("Dashboard");

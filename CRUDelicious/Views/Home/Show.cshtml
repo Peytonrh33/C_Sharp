@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Dish
+<div>
+    <div>
+        <h1>@ViewBag.One_Dish.Name</h1>
+    </div>
+    <div>
+        <a href="/">Home</a> | <a href="/dishes/new">Add a Dish</a>
+    </div>
+    <div>
+        <p>@ViewBag.One_Dish.Name by @ViewBag.One_Dish.Chef</p>
+    </div>
+    <div>
+        <ul>
+            <li>Description: @ViewBag.One_Dish.Description</li>
+            <li>Calories: @ViewBag.One_Dish.Calories</li>
+            <li>Tastiness: @ViewBag.One_Dish.Tastiness</li>
+        </ul>
+    </div>
+    <div>
+        <div>
+            <form asp-action="DestroyDish" asp-controller="Home" asp-route-id="@ViewBag.One_Dish.DishId" method="post">
+                <input type="submit" value="Delete">
+            </form>
+        </div>
+        <div>
+            <a href="/dishes/@ViewBag.One_Dish.DishId/edit">Edit</a>
+        </div>
+    </div>
+</div>

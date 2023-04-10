@@ -5,7 +5,7 @@
 <div>
     <div>
         <p>Welcome @Context.Session.GetString("User")</p>
-        <form asp-action="clear" method="post">
+        <form asp-action="ClearSession" method="post">
             <button type="submit">Logout</button>
         </form>
     </div>
