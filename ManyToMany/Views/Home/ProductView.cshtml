@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div>
+        <h1>@ViewBag.OneProduct.Name</h1>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h2>Categories</h2>
+            </div>
+            <div>
+                @foreach (Association a in ViewBag.AllAssociations.Products)
+                {
+                    <p>@a.Category.Name</p>
+                }
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>Add Category</h2>
+            </div>
+            <div>
+                @await Html.PartialAsync("_AssociationForm")
+            </div>
+        </div>
+    </div>
+</div>

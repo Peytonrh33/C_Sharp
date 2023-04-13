@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div>
+        <div>
+            <div>
+                <h1>New Category</h1>
+            </div>
+            <div>
+                @await Html.PartialAsync("_CategoryForm")
+            </div>
+        </div>
+        |
+        <div>
+            <div>
+                <h1>All Categories</h1>
+            </div>
+            <div>
+                @foreach (Category c in ViewBag.AllCategories)
+                {
+                    <a href="/categories/@c.CategoryId">@c.Name</a>
+
+                }
+            </div>
+        </div>
+    </div>
+</div>

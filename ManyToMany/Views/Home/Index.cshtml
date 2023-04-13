@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model List<Product>
+<div class="text-center">
+    <div>
+        @await Html.PartialAsync("_Navbar")
+        <div>
+            <h2>New Product</h2>
+            @await Html.PartialAsync("_ProductForm")
+        </div>
+        |
+        <div>
+            <h2>All Products</h2>
+            <div>
+                    @foreach(Product p in ViewBag.AllProducts)
+                    {
+                        <a href="/products/@p.ProductId">@p.Name</a>
+                    }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,41 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Association
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div>
+        <h1>@ViewBag.OneCategory.Name</h1>
+    </div>
+    <div>
+        <div>
+            <div>
+                <h2>Products</h2>
+            </div>
+            <div>
+                @foreach (Association a in ViewBag.AllAssociations.Categories)
+                {
+                    <p>@a.Product.Name</p>
+                }
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>Add Product</h2>
+            </div>
+            <div>
+                    <form asp-action="CategoryProduct" asp-route-CategoryId="@ViewBag.OneCategory.CategoryId" method="post">
+                    <select asp-for="ProductId">
+                        @foreach(Product c in ViewBag.AllProducts)
+                        {
+                            <option value="@c.ProductId">@c.Name</option>
+                        }
+                    </select>
+                    <button type="submit">Add</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
