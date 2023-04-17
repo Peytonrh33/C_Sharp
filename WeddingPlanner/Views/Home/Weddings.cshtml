@@ -1,0 +1,54 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@model MyViewModel
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Wedding Of</th>
+                    <th>Date</th>
+                    <th>Guest Count</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach (Wedding w in Model.AllWeddings)
+                        {
+                            <tr>
+                                <td><a href="/weddings/@w.WeddingId">@w.WedderOne & @w.WedderTwo</a></td>
+                                <td>@w.Date</td>
+                                <td>@w.Guests.Count</td>
+                                <td>
+                                    @if(w.UserId == Context.Session.GetInt32("UserId"))
+                                        {
+                                            <form asp-action="DestroyWedding" asp-route-id="@w.WeddingId" method="post">
+                                                <button type="submit">Delete</button>
+                                            </form>
+                                        }
+                                    else if (w.Guests.Any(g => g.UserId == Context.Session.GetInt32("UserId")) == true)
+                                    {
+                                        <form asp-action="UnRSVP" asp-route-id="@w.WeddingId" method="post">
+                                            <button type="submit">Un-RSVP</button>
+                                        </form>
+                                    }
+                                    else
+                                    {
+                                        <form asp-action="RSVP" asp-route-id="@w.WeddingId" method="post">
+                                            <button type="submit">RSVP</button>
+                                        </form>
+                                    }
+                                </td>
+                            </tr>
+                        }
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

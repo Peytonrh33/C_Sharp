@@ -1,0 +1,14 @@
+<div>
+    <div>
+        <h1>Welcome, @Context.Session.GetString("UserName")</h1>
+    </div>
+    <div>
+        <a href="/">Home</a>
+        |
+        <a href="/weddings/new">Add A Wedding</a>
+        |
+        <form action="Logout" method="post">
+            <button type="submit">Logout</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model MyViewModel
+<div>
+    <div>
+        @await Html.PartialAsync("_Navbar")
+    </div>
+    <div>
+        <h1>@ViewBag.OneWedding.WedderOne & @ViewBag.OneWedding.WedderTwo</h1>
+    </div>
+    <div>
+        <p>Date: @ViewBag.OneWedding.Date</p>
+    </div>
+    <div>
+        <div>
+            <p>Guests</p>
+        </div>
+        <div>
+            <ul>
+                @foreach(Guest g in Model.AllGeusts)
+                {
+                    <li>@g.User.FirstName @g.User.LastName</li>
+                }
+            </ul>
+        </div>
+    </div>
+</div>
